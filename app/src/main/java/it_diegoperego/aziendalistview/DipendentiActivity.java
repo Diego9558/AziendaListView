@@ -25,7 +25,6 @@ public class DipendentiActivity extends AppCompatActivity {
     private EditText numTel;
     private EditText idDip;
     private CustomAdapter customAdapter;
-    private int id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
