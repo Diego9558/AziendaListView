@@ -23,8 +23,6 @@ public class CustomAdapter extends ArrayAdapter<Dipendente> {
     private LayoutInflater inflater;
     private List<Dipendente> dipendenti;
 
-
-
     public CustomAdapter(Context context, int resourceId, List<Dipendente> objects) {
         super(context, resourceId, objects);
         this.resource = resourceId;
